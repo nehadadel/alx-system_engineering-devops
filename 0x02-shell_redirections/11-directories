@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rl | grep "^-" | wc -l
+ls -Rla | grep "^-" | wc -l
