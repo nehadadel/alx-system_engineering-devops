@@ -1,2 +1,2 @@
 #!/bin/bash
-fmt | uniq
+sort file2 | uniq
