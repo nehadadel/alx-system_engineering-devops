@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%d\n" result=($TRUEKNOWLEDGE)+128
+echo $((128 + $trueknowledge))
