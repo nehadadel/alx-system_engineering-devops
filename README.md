@@ -1,1 +1,1 @@
-My first readme
+i'm im permissions now 
