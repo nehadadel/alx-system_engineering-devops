@@ -1,0 +1,2 @@
+#!/bin/bash
+ls | tr ' ' '\n' | grep "NR%2==1"
