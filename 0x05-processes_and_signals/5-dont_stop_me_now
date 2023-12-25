@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Start the infinite loop process
+./4-to_infinity_and_beyond.sh &
+
+# Store the PID of the background process
+PID=$!
+
+# Wait for a moment (you may want to adjust this depending on how long it takes for the process to start)
+sleep 2
+
+# Stop the process using kill
+kill "$PID"
