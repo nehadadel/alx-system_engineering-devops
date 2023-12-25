@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 # Start the infinite loop process
-./4-to_infinity_and_beyond.sh &
-PID=$!
-sleep 2
-kill "$PID"
+kill "$(ps -x | pgrep -f beyond)"
