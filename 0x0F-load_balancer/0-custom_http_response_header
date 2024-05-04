@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Customizing a 404-error_page
+# configures a new Ubuntu machine
 
 # Updating Packages before performing installations
 sudo apt-get update
